@@ -1,7 +1,7 @@
 {
-    "version":  "3.77",
+    "version":  "3.78",
     "date":  "2026-08-17",
-    "file":  "radio-mpx-3.77.zip.enc",
-    "sha256":  "216967a01bfc24fcd70ab9f707ac039b664ae3bfe442d5ad0585adb38f647eef",
-    "changelog":  "Los VU por banda no funcionaban en equipos x86_64: la causa era el binario mod-host, que se habia compilado sin el parche que permite leer los medidores del plugin (en Raspberry Pi ya lo tenia). El parche quedo versionado en engine/patches/ para que no se pierda al portar a otra arquitectura. NOTA: en equipos x86_64 ya instalados esta actualizacion NO alcanza para arreglar los VU, porque el arreglo es el binario y el paquete OTA no incluye engine/ - hay que reinstalar desde el repo o copiar el binario aparte. En Raspberry Pi no cambia nada: mismo codigo que la 3.76."
+    "file":  "radio-mpx-3.78.zip.enc",
+    "sha256":  "53103d206cf60bdb866371e5ceaa72adc4a5ca6cdac797dea103fbc004db8a91",
+    "changelog":  "Correcciones de un code review: en Raspberry Pi el display podia quedar en negro tras un reboot si el bus SPI tardaba en aparecer (ahora el daemon lo espera en vez de rendirse); las copias temporales de las claves quedaban legibles en /opt durante la instalacion y ahora se protegen y se borran al terminar; y la tarjeta del cooler ya no informa datos de un sensor ajeno en equipos sin ventilador controlable. Incluye lo de la 3.77 (VU por banda en x86), 3.76 y 3.75 (descarga y chequeo de actualizaciones), 3.74 (swap y display en RPi) y 3.73 (soporte x86_64, alta automatica en el portal, un solo selector de placa)."
 }
