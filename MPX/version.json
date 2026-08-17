@@ -1,7 +1,7 @@
 {
-    "version":  "3.75",
+    "version":  "3.76",
     "date":  "2026-08-17",
-    "file":  "radio-mpx-3.75.zip.enc",
-    "sha256":  "aebd020ad0f7ba6e5e2210b7dd19f1f12c04c3aadd7feed6af92b1456360051d",
-    "changelog":  "Arregla el mosaico ACTUALIZACIONES, que mostraba HTTP 429 y no veia releases nuevos: el manifiesto ahora se lee por la API de GitHub en vez del CDN raw, que estaba limitando las consultas. Incluye lo de la 3.74 (swap y display en RPi) y la 3.73 (soporte x86_64, alta automatica en el portal, un solo selector de placa)."
+    "file":  "radio-mpx-3.76.zip.enc",
+    "sha256":  "770493f3a3f23c98465575095690072aef9a01b762f083d9b1d4c6d7366482ae",
+    "changelog":  "Arregla la descarga de actualizaciones, que fallaba con \u0027HTTP 503 Backend.max_conn reached\u0027: el paquete ahora se baja por la API de GitHub en vez del CDN raw, que estaba rechazando conexiones. Con esto el OTA funciona de punta a punta (verificado con una actualizacion real). Incluye lo de la 3.75 (chequeo de version por la API), 3.74 (swap y display en RPi) y 3.73 (soporte x86_64, alta automatica en el portal, un solo selector de placa)."
 }
