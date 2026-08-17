@@ -1,7 +1,7 @@
 {
-    "version":  "3.70",
-    "date":  "2026-08-16",
-    "file":  "radio-mpx-3.70.zip.enc",
-    "sha256":  "5b8c8d901b103e3e4c3cde079b987b9ca59525fd6ce4d5b2bae4d4c4aaf93aa9",
-    "changelog":  "Prueba de actualizacion OTA desde el portal - sin cambios funcionales respecto de 3.69"
+    "version":  "3.73",
+    "date":  "2026-08-17",
+    "file":  "radio-mpx-3.73.zip.enc",
+    "sha256":  "4a737ac4382b8796c657f0395aed08027d4f86c276a2a4cd09a8ad4843a3ce67",
+    "changelog":  "Soporte x86_64 (PC/mini-PC) ademas de RPi5: instalador multi-arch que baja todo del repo en la primera instalacion. Alta automatica de equipos en el portal, sin copiar el secreto por SSH. Un solo selector de placa de audio (PLACA MASTER) que se aplica a entrada y salida MPX, con el nombre de la placa en vez del id. Arreglos: overclock/cooler y temperatura de CPU ya no dan error en PC."
 }
