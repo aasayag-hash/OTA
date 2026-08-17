@@ -1,7 +1,7 @@
 {
-    "version":  "3.74",
+    "version":  "3.75",
     "date":  "2026-08-17",
-    "file":  "radio-mpx-3.74.zip.enc",
-    "sha256":  "e02ddc519d31a8f2157059995c5513d496b17650089ec6a320057112e72e5f8b",
-    "changelog":  "Correcciones para Raspberry Pi sobre la 3.73: el swap de emergencia se crea siempre en RPi (una RPi5 de 8GB se quedaba sin el, y es la red de seguridad anti-OOM), y el daemon del display ya no se rinde tras 6 intentos en equipos con SPI (podia dejar la RPi sin panel hasta reiniciar el servicio). Incluye todo lo de la 3.73: soporte x86_64, alta automatica en el portal y un solo selector de placa de audio."
+    "file":  "radio-mpx-3.75.zip.enc",
+    "sha256":  "aebd020ad0f7ba6e5e2210b7dd19f1f12c04c3aadd7feed6af92b1456360051d",
+    "changelog":  "Arregla el mosaico ACTUALIZACIONES, que mostraba HTTP 429 y no veia releases nuevos: el manifiesto ahora se lee por la API de GitHub en vez del CDN raw, que estaba limitando las consultas. Incluye lo de la 3.74 (swap y display en RPi) y la 3.73 (soporte x86_64, alta automatica en el portal, un solo selector de placa)."
 }
