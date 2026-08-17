@@ -1,7 +1,7 @@
 {
-    "version":  "3.73",
+    "version":  "3.74",
     "date":  "2026-08-17",
-    "file":  "radio-mpx-3.73.zip.enc",
-    "sha256":  "4a737ac4382b8796c657f0395aed08027d4f86c276a2a4cd09a8ad4843a3ce67",
-    "changelog":  "Soporte x86_64 (PC/mini-PC) ademas de RPi5: instalador multi-arch que baja todo del repo en la primera instalacion. Alta automatica de equipos en el portal, sin copiar el secreto por SSH. Un solo selector de placa de audio (PLACA MASTER) que se aplica a entrada y salida MPX, con el nombre de la placa en vez del id. Arreglos: overclock/cooler y temperatura de CPU ya no dan error en PC."
+    "file":  "radio-mpx-3.74.zip.enc",
+    "sha256":  "e02ddc519d31a8f2157059995c5513d496b17650089ec6a320057112e72e5f8b",
+    "changelog":  "Correcciones para Raspberry Pi sobre la 3.73: el swap de emergencia se crea siempre en RPi (una RPi5 de 8GB se quedaba sin el, y es la red de seguridad anti-OOM), y el daemon del display ya no se rinde tras 6 intentos en equipos con SPI (podia dejar la RPi sin panel hasta reiniciar el servicio). Incluye todo lo de la 3.73: soporte x86_64, alta automatica en el portal y un solo selector de placa de audio."
 }
