@@ -1,7 +1,7 @@
 {
-    "version":  "3.60",
+    "version":  "3.69",
     "date":  "2026-08-16",
-    "file":  "radio-mpx-3.60.zip.enc",
-    "sha256":  "295646dc6238fee9e2e2fd94dc205bf3b66259b2771670c28384f1bd7be7574f",
-    "changelog":  "Formatos de audio reales de la placa (32 bit) - Mosaico de actualizaciones OTA"
+    "file":  "radio-mpx-3.69.zip.enc",
+    "sha256":  "bd46690794639d57b918385a27234f6a03dc13a8b91e9fd8dc420fa8ee6050c6",
+    "changelog":  "Control real del cooler (los fan_temp de config.txt no funcionan en RPi5) - Rate y bits reales de la placa en el display (32 bit, no 24) - Identidad de equipo y alta desde el portal sin SSH - Heartbeat con temperatura"
 }
