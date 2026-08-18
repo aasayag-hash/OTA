@@ -1,7 +1,7 @@
 {
-    "version":  "3.79",
-    "date":  "2026-08-17",
-    "file":  "radio-mpx-3.79.zip.enc",
-    "sha256":  "4ddf6a18f844f9b78592b7fafdae04ed0b15cf63028bc5f11eb8f4cbf775d5a6",
-    "changelog":  "El nombre y el ID del equipo se movieron de MIXER a OPCIONES, dentro de ESTADO DEL SISTEMA: es identidad del equipo, no configuracion de audio. El nombre ademas se refresca al entrar a la pestana, asi se ve enseguida si lo renombraron desde el portal. Incluye lo de la 3.78 (correcciones de un code review: display del RPi y proteccion de las claves durante la instalacion), 3.77 (VU por banda en x86), 3.76 y 3.75 (descarga y chequeo de actualizaciones), 3.74 (swap y display en RPi) y 3.73 (soporte x86_64, alta automatica en el portal, un solo selector de placa)."
+    "version":  "3.81",
+    "date":  "2026-08-18",
+    "file":  "radio-mpx-3.81.zip.enc",
+    "sha256":  "4707af545721ec3c1ee291a68cc97ce0cab9c993b07e73ffeef71e6e3bee383e",
+    "changelog":  "Dos correcciones medidas en un equipo real. 1) El click periodico de la salida era el RECONOCEDOR DE MUSICA: capturaba 10 segundos de audio, resampleaba y escribia un WAV de 864 KB a disco cada 30 segundos, todo DENTRO del proceso que atiende el audio en tiempo real. Ahora la captura corre en un proceso aparte y el archivo va a memoria (/dev/shm), no al disco. Medido: de 194 fallos de audio cada 3 minutos a 1. El reconocedor sigue funcionando igual. 2) Los VU de la entrada de HARDWARE y de la entrada del PLUGIN no coincidian aunque los volumenes estuvieran en 0 dB: uno mostraba el promedio (RMS) y el otro el pico. Se unificaron en PICO, que es lo que corresponde en broadcast. Verificado con un tono de referencia: antes diferian ~12 dB, ahora marcan identico."
 }
