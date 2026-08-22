@@ -1,7 +1,7 @@
 {
-    "version":  "3.85",
+    "version":  "3.86",
     "date":  "2026-08-22",
-    "file":  "radio-mpx-3.85.zip.enc",
-    "sha256":  "0d20508ddd51f1a6be54f116b52f8606c5640bfddcf5323fae95d67cf61b9bb1",
-    "changelog":  "PRE/POST: noise gate, AGC con LEARN adaptativo, EQ grafico 31 bandas con 2 memorias, stereo enhancer M/S y limitador brickwall. Tooltips de ayuda en todos los controles. Corrige el enhancer (distorsion por clamp), la cadena de audio (las fuentes salteaban el AGC) y la perdida del streaming tras reiniciar."
+    "file":  "radio-mpx-3.86.zip.enc",
+    "sha256":  "e40f240d477a04fc9fafdbedd8dd83ba43a86682b32b7b1396578c1ab2cede9b",
+    "changelog":  "Corrige el corte de audio al mover los knobs del gate. Carteles de ayuda con el estilo oscuro de la app. Guardado diferido para no castigar la SD al arrastrar controles."
 }
