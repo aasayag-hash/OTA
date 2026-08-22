@@ -1,7 +1,7 @@
 {
-    "version":  "3.86",
+    "version":  "3.98",
     "date":  "2026-08-22",
-    "file":  "radio-mpx-3.86.zip.enc",
-    "sha256":  "e40f240d477a04fc9fafdbedd8dd83ba43a86682b32b7b1396578c1ab2cede9b",
-    "changelog":  "Corrige el corte de audio al mover los knobs del gate. Carteles de ayuda con el estilo oscuro de la app. Guardado diferido para no castigar la SD al arrastrar controles."
+    "file":  "radio-mpx-3.98.zip.enc",
+    "sha256":  "5c9a4d010f5865e073e9f93d55461aaee949a2c95e0bfa14c6ca1cb4025b9e69",
+    "changelog":  "Piloto 19kHz al 9% normativo (estaba al 4.5%, por debajo del minimo de la FCC) y RDS al 6% NRSC. Corrige el enganche inestable del estereo en el receptor. AGC por defecto a -22."
 }
