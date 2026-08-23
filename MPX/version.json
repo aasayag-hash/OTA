@@ -1,7 +1,7 @@
 {
-    "version":  "4.01",
+    "version":  "4.05",
     "date":  "2026-08-22",
-    "file":  "radio-mpx-4.01.zip.enc",
-    "sha256":  "63877926e2925d578b25c77c714952f1e8649a314680f21e51e0b76b7454795c",
-    "changelog":  "Controles de diagnostico del subportador estereo: fase (scphase) y ganancia del L-R (scgain), ajustables en vivo sin cortar el aire. LEARN ajusta solo el nivel del AGC y converge. Piloto 19kHz al 9% normativo y RDS al 6% NRSC."
+    "file":  "radio-mpx-4.05.zip.enc",
+    "sha256":  "c0df4e7225bf4979c513dc0a5f3c0d46c1f66f1f0d8162339ddc8b794acf3dec",
+    "changelog":  "LEARN corregido: el objetivo del AGC nunca llegaba al plugin, el lazo medía un punto intermedio de la cadena y toleraba picos hasta -1 dBFS (saturaba). Ahora controla lo que entra al MPX, la velocidad es proporcional al error y el knob de nivel se mueve en la GUI."
 }
