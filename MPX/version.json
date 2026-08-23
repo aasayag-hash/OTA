@@ -1,7 +1,7 @@
 {
-    "version":  "4.00",
+    "version":  "4.01",
     "date":  "2026-08-22",
-    "file":  "radio-mpx-4.00.zip.enc",
-    "sha256":  "98d5d77226b5a637d70df6f406b8d97cb6dbf9c6c71f1313a781cf6845a42382",
-    "changelog":  "LEARN ahora ajusta solo el nivel del AGC y converge (antes se clavaba en el tope y saturaba); tiene en cuenta cuanto trabaja el limitador. Piloto 19kHz al 9% normativo y RDS al 6% NRSC. Nuevo ajuste de fase del subportador 38kHz."
+    "file":  "radio-mpx-4.01.zip.enc",
+    "sha256":  "63877926e2925d578b25c77c714952f1e8649a314680f21e51e0b76b7454795c",
+    "changelog":  "Controles de diagnostico del subportador estereo: fase (scphase) y ganancia del L-R (scgain), ajustables en vivo sin cortar el aire. LEARN ajusta solo el nivel del AGC y converge. Piloto 19kHz al 9% normativo y RDS al 6% NRSC."
 }
