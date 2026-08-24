@@ -1,7 +1,7 @@
 {
-    "version":  "4.11",
+    "version":  "4.12",
     "date":  "2026-08-24",
-    "file":  "radio-mpx-4.11.zip.enc",
-    "sha256":  "edd504706710467234d24596b034b17eda6a06ed15df89b3cdce553bcdee9429",
-    "changelog":  "Enhancer estereo: el control de ancho casi no hacia efecto por un limite mal calibrado, ahora responde en todo su rango. Streaming: calidad configurable (64/96/128 kbps) para servidores con limite de plan, el relay externo confirma si el servidor esta recibiendo de verdad y ahora si le llega el titulo del tema. Tambien se corrigio el formulario del relay, que borraba lo que se estaba escribiendo, y las ayudas al pasar el mouse que solo funcionaban en una solapa."
+    "file":  "radio-mpx-4.12.zip.enc",
+    "sha256":  "799350972d90aa9496a13987fcce6ddf802fdf5c8b6ca5cd6bb782b173656db9",
+    "changelog":  "Relay listo para operar: la contrasenia queda guardada y visible, y un boton RELAY A INTERNET lo activa con la configuracion ya cargada, sin abrir el panel. Corrige que la pantalla del transmisor se demoraba hasta 6 segundos cuando el servidor externo no respondia, que cambiar la calidad podia cortar la transmision si fallaba, y un falso aviso de \u0027no llega audio\u0027 con el relay funcionando bien."
 }
