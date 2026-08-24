@@ -1,7 +1,7 @@
 {
-    "version":  "4.13",
+    "version":  "4.14",
     "date":  "2026-08-24",
-    "file":  "radio-mpx-4.13.zip.enc",
-    "sha256":  "ca9a3c7d7271171695fe517982255c19aca0044a3c2ef0ac304294f897a9e472",
-    "changelog":  "Corrige que el boton y el indicador del relay se veian apagados aunque estuviera transmitiendo bien, cuando el servidor de internet no publica su estado. Y mejora el aviso cuando un cambio de calidad no se puede aplicar."
+    "file":  "radio-mpx-4.14.zip.enc",
+    "sha256":  "74053d47c0959387111cbc95f80256698cb0693765f2fabd5be7024c3bf37e1f",
+    "changelog":  "Mejora importante de rendimiento del encoder MPX: el generador de RDS consumia el 40 por ciento del tiempo disponible haciendo calculos innecesarios. En equipos de pocos nucleos eso cortaba el audio; ahora el procesador tiene mucho mas margen. La señal RDS transmitida es identica a la anterior."
 }
