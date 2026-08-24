@@ -1,7 +1,7 @@
 {
-    "version":  "4.06",
+    "version":  "4.07",
     "date":  "2026-08-24",
-    "file":  "radio-mpx-4.06.zip.enc",
-    "sha256":  "9910c5bda211de38eba5ffa513e9f42c1b4f48853e238f5613f669cb12c39654",
-    "changelog":  "Transmisor de streaming (Icecast): MP3 128 kbps escuchable con VLC, con ON/OFF real (apagado no deja ningun proceso corriendo) y selector PRE/POST del punto de toma. PRE toma las entradas del mixer antes del procesado; POST toma lo mismo que alimenta al encoder MPX y sigue solo a la cadena. El cambio PRE/POST es en caliente, sin cortar el stream. Metadata (PS Name + RadioText) al mount. Relay saliente opcional sin re-encodear."
+    "file":  "radio-mpx-4.07.zip.enc",
+    "sha256":  "c6f9227550ddba2730993d5f1db658c59c2ef549370ffe32718f8602bb7751cd",
+    "changelog":  "Corrige que el streaming de salida se caia solo y quedaba caido: ahora un watchdog relanza el encoder si muere (recuperacion en ~4 segundos) y se evita la carrera con Icecast que lo mataba al encenderlo enseguida despues de apagarlo."
 }
