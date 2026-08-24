@@ -1,7 +1,7 @@
 {
-    "version":  "4.05",
-    "date":  "2026-08-22",
-    "file":  "radio-mpx-4.05.zip.enc",
-    "sha256":  "c0df4e7225bf4979c513dc0a5f3c0d46c1f66f1f0d8162339ddc8b794acf3dec",
-    "changelog":  "LEARN corregido: el objetivo del AGC nunca llegaba al plugin, el lazo medía un punto intermedio de la cadena y toleraba picos hasta -1 dBFS (saturaba). Ahora controla lo que entra al MPX, la velocidad es proporcional al error y el knob de nivel se mueve en la GUI."
+    "version":  "4.06",
+    "date":  "2026-08-24",
+    "file":  "radio-mpx-4.06.zip.enc",
+    "sha256":  "9910c5bda211de38eba5ffa513e9f42c1b4f48853e238f5613f669cb12c39654",
+    "changelog":  "Transmisor de streaming (Icecast): MP3 128 kbps escuchable con VLC, con ON/OFF real (apagado no deja ningun proceso corriendo) y selector PRE/POST del punto de toma. PRE toma las entradas del mixer antes del procesado; POST toma lo mismo que alimenta al encoder MPX y sigue solo a la cadena. El cambio PRE/POST es en caliente, sin cortar el stream. Metadata (PS Name + RadioText) al mount. Relay saliente opcional sin re-encodear."
 }
