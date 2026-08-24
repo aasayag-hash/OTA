@@ -1,7 +1,7 @@
 {
-    "version":  "4.12",
+    "version":  "4.13",
     "date":  "2026-08-24",
-    "file":  "radio-mpx-4.12.zip.enc",
-    "sha256":  "799350972d90aa9496a13987fcce6ddf802fdf5c8b6ca5cd6bb782b173656db9",
-    "changelog":  "Relay listo para operar: la contrasenia queda guardada y visible, y un boton RELAY A INTERNET lo activa con la configuracion ya cargada, sin abrir el panel. Corrige que la pantalla del transmisor se demoraba hasta 6 segundos cuando el servidor externo no respondia, que cambiar la calidad podia cortar la transmision si fallaba, y un falso aviso de \u0027no llega audio\u0027 con el relay funcionando bien."
+    "file":  "radio-mpx-4.13.zip.enc",
+    "sha256":  "ca9a3c7d7271171695fe517982255c19aca0044a3c2ef0ac304294f897a9e472",
+    "changelog":  "Corrige que el boton y el indicador del relay se veian apagados aunque estuviera transmitiendo bien, cuando el servidor de internet no publica su estado. Y mejora el aviso cuando un cambio de calidad no se puede aplicar."
 }
