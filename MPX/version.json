@@ -1,7 +1,7 @@
 {
-    "version":  "4.07",
+    "version":  "4.08",
     "date":  "2026-08-24",
-    "file":  "radio-mpx-4.07.zip.enc",
-    "sha256":  "c6f9227550ddba2730993d5f1db658c59c2ef549370ffe32718f8602bb7751cd",
-    "changelog":  "Corrige que el streaming de salida se caia solo y quedaba caido: ahora un watchdog relanza el encoder si muere (recuperacion en ~4 segundos) y se evita la carrera con Icecast que lo mataba al encenderlo enseguida despues de apagarlo."
+    "file":  "radio-mpx-4.08.zip.enc",
+    "sha256":  "d175377de1d4394fb55104f8fb4755b062d7af2bc62be92c7d0aef3df909c725",
+    "changelog":  "Corrige 5 problemas del transmisor de streaming detectados en revision de codigo: el relanzamiento automatico mataba el relay externo, la API quedaba bloqueada hasta 20 segundos durante un arranque, apagar mientras arrancaba podia dejar un proceso vivo, se acumulaban procesos zombie y el estado no informaba el error mientras se recuperaba."
 }
