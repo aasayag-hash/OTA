@@ -1,7 +1,7 @@
 {
-    "version":  "4.08",
+    "version":  "4.11",
     "date":  "2026-08-24",
-    "file":  "radio-mpx-4.08.zip.enc",
-    "sha256":  "d175377de1d4394fb55104f8fb4755b062d7af2bc62be92c7d0aef3df909c725",
-    "changelog":  "Corrige 5 problemas del transmisor de streaming detectados en revision de codigo: el relanzamiento automatico mataba el relay externo, la API quedaba bloqueada hasta 20 segundos durante un arranque, apagar mientras arrancaba podia dejar un proceso vivo, se acumulaban procesos zombie y el estado no informaba el error mientras se recuperaba."
+    "file":  "radio-mpx-4.11.zip.enc",
+    "sha256":  "edd504706710467234d24596b034b17eda6a06ed15df89b3cdce553bcdee9429",
+    "changelog":  "Enhancer estereo: el control de ancho casi no hacia efecto por un limite mal calibrado, ahora responde en todo su rango. Streaming: calidad configurable (64/96/128 kbps) para servidores con limite de plan, el relay externo confirma si el servidor esta recibiendo de verdad y ahora si le llega el titulo del tema. Tambien se corrigio el formulario del relay, que borraba lo que se estaba escribiendo, y las ayudas al pasar el mouse que solo funcionaban en una solapa."
 }
