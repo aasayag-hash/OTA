@@ -1,7 +1,7 @@
 {
-    "version":  "4.17",
+    "version":  "4.20",
     "date":  "2026-08-30",
-    "file":  "radio-mpx-4.17.zip.enc",
-    "sha256":  "a73e33e50f2ebcec840b192e6ec659af52a2cee493a8db802adc165d7066931e",
-    "changelog":  "Corrige una fuga de canal izquierdo a derecho en el stereo enhancer: con el bloque APAGADO seguia procesando y volvia mono los graves, reduciendo la separacion estereo de 47 a 10 dB. Nuevo layout de la solapa PRE/POST (enhancer y gate en dos columnas, cuadro de aprendizaje al final, scroll corregido)."
+    "file":  "radio-mpx-4.20.zip.enc",
+    "sha256":  "884b40033394e9bf28f1d42284310440314807f21690154d5ec151edaab0bafb",
+    "changelog":  "Faltaba el filtro de 15 kHz en el generador de MPX: el audio sobre 15 kHz caia encima del piloto de 19 kHz y degradaba la separacion estereo (proteccion del piloto de 20 dB a 127 dB). Los knobs del MASTERIZADOR no respondian al mouse porque los canvas se solapaban entre si. El AGC en modo manual revertia solo el valor puesto por el usuario."
 }
