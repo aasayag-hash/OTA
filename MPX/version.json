@@ -1,7 +1,7 @@
 {
-    "version":  "4.15",
-    "date":  "2026-08-25",
-    "file":  "radio-mpx-4.15.zip.enc",
-    "sha256":  "acfd68fde219728e2a7133a40b9921384bc5ac7395699e61eeb13d6b2edb1142",
-    "changelog":  "El boton COPIAR de la direccion del stream no copiaba nada (y avisaba que si). Ahora funciona, y el relay externo tiene su propia direccion publica como link clickeable con boton para copiarla. Incluye tambien la mejora de rendimiento del encoder MPX de la version anterior."
+    "version":  "4.17",
+    "date":  "2026-08-30",
+    "file":  "radio-mpx-4.17.zip.enc",
+    "sha256":  "a73e33e50f2ebcec840b192e6ec659af52a2cee493a8db802adc165d7066931e",
+    "changelog":  "Corrige una fuga de canal izquierdo a derecho en el stereo enhancer: con el bloque APAGADO seguia procesando y volvia mono los graves, reduciendo la separacion estereo de 47 a 10 dB. Nuevo layout de la solapa PRE/POST (enhancer y gate en dos columnas, cuadro de aprendizaje al final, scroll corregido)."
 }
