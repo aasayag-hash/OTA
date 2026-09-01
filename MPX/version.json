@@ -1,7 +1,7 @@
 {
-    "version":  "4.20",
-    "date":  "2026-08-30",
-    "file":  "radio-mpx-4.20.zip.enc",
-    "sha256":  "884b40033394e9bf28f1d42284310440314807f21690154d5ec151edaab0bafb",
-    "changelog":  "Faltaba el filtro de 15 kHz en el generador de MPX: el audio sobre 15 kHz caia encima del piloto de 19 kHz y degradaba la separacion estereo (proteccion del piloto de 20 dB a 127 dB). Los knobs del MASTERIZADOR no respondian al mouse porque los canvas se solapaban entre si. El AGC en modo manual revertia solo el valor puesto por el usuario."
+    "version":  "4.21",
+    "date":  "2026-09-01",
+    "file":  "radio-mpx-4.21.zip.enc",
+    "sha256":  "ddf4421000b8ac5ce9ace3ce62803b738e03e2af97a98a8923276862209ef57a",
+    "changelog":  "x86: C-states limitados a POLL/C1 y governor en performance — el CPU se dormia y generaba XRuns. Ambos quedan en el instalador para todo equipo x86 nuevo. En la RPi no aplica. OJO: en equipos ya instalados los C-states requieren un reboot para activarse."
 }
