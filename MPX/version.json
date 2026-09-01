@@ -1,7 +1,7 @@
 {
-    "version":  "4.22",
+    "version":  "4.23",
     "date":  "2026-09-01",
-    "file":  "radio-mpx-4.22.zip.enc",
-    "sha256":  "f02e665bc8d7f9198045756b0798a872f1d421b7de6248817d1e521b57d8db65",
-    "changelog":  "El RDS estaba inyectando 7.5% de desviacion, por encima del maximo normativo de 7%: le robaba desviacion al audio sin beneficio. Bajado al 6% de la norma NRSC. Medido tras el cambio: el audio paso de +-60.3 a +-66.7 kHz de desviacion (8.5 puntos mas de nivel al aire). El piloto queda intacto en 8.1%."
+    "file":  "radio-mpx-4.23.zip.enc",
+    "sha256":  "7afb48806f5fddfa5e7d322aab348523a1472c14688a424a26f18c5ebe3e1e92",
+    "changelog":  "Alineada la version que muestra la interfaz web con la del release (venia diciendo V4.20). Incluye los cambios de la 4.21 (C-states y governor en x86, menos XRuns) y la 4.22 (RDS bajado al 6% de la norma: el audio gano 8.5 puntos de desviacion)."
 }
