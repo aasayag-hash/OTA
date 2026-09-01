@@ -1,7 +1,7 @@
 {
-    "version":  "4.21",
+    "version":  "4.22",
     "date":  "2026-09-01",
-    "file":  "radio-mpx-4.21.zip.enc",
-    "sha256":  "ddf4421000b8ac5ce9ace3ce62803b738e03e2af97a98a8923276862209ef57a",
-    "changelog":  "x86: C-states limitados a POLL/C1 y governor en performance — el CPU se dormia y generaba XRuns. Ambos quedan en el instalador para todo equipo x86 nuevo. En la RPi no aplica. OJO: en equipos ya instalados los C-states requieren un reboot para activarse."
+    "file":  "radio-mpx-4.22.zip.enc",
+    "sha256":  "f02e665bc8d7f9198045756b0798a872f1d421b7de6248817d1e521b57d8db65",
+    "changelog":  "El RDS estaba inyectando 7.5% de desviacion, por encima del maximo normativo de 7%: le robaba desviacion al audio sin beneficio. Bajado al 6% de la norma NRSC. Medido tras el cambio: el audio paso de +-60.3 a +-66.7 kHz de desviacion (8.5 puntos mas de nivel al aire). El piloto queda intacto en 8.1%."
 }
