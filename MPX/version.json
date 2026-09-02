@@ -1,7 +1,7 @@
 {
-    "version":  "4.24",
-    "date":  "2026-09-01",
-    "file":  "radio-mpx-4.24.zip.enc",
-    "sha256":  "878ea41735b1760b5c8d26b88a67277fb8d6097fb18f8255ef14b703db712b03",
-    "changelog":  "Enhancer estereo: el techo del ancho pasa de 2.0 a 1.0, el valor de la patente de Orban. Antes el canal lateral podia salir al DOBLE del central y generaba antifase (los canales se cancelan en un receptor mono). Con material normal no cambia nada; solo actua cuando el lateral de verdad se pasa."
+    "version":  "4.26",
+    "date":  "2026-09-02",
+    "file":  "radio-mpx-4.26.zip.enc",
+    "sha256":  "3c4f092da3c394800c1b1e11039b8984146af0020b2913e5387dc947607592c9",
+    "changelog":  "La clave de cifrado del OTA la entrega ahora el portal al aprobar el equipo, en vez de copiarla a mano a cada uno: no puede viajar dentro de install.sh porque ese archivo se descarga del repositorio publico durante la instalacion. Ademas, el governor del CPU queda fijo en performance de forma persistente en TODAS las plataformas: antes solo se aplicaba en x86 y en ARM se perdia en cada reinicio, lo que puede provocar cortes de audio."
 }
