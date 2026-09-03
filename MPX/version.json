@@ -1,7 +1,7 @@
 {
-    "version":  "4.26",
+    "version":  "4.30",
     "date":  "2026-09-02",
-    "file":  "radio-mpx-4.26.zip.enc",
-    "sha256":  "3c4f092da3c394800c1b1e11039b8984146af0020b2913e5387dc947607592c9",
-    "changelog":  "La clave de cifrado del OTA la entrega ahora el portal al aprobar el equipo, en vez de copiarla a mano a cada uno: no puede viajar dentro de install.sh porque ese archivo se descarga del repositorio publico durante la instalacion. Ademas, el governor del CPU queda fijo en performance de forma persistente en TODAS las plataformas: antes solo se aplicaba en x86 y en ARM se perdia en cada reinicio, lo que puede provocar cortes de audio."
+    "file":  "radio-mpx-4.30.zip.enc",
+    "sha256":  "353e9fe85a52cf3b7b5bd46aa73b3a5058c1495cb6a9f8fedd45f20fe9023d5d",
+    "changelog":  "Soporte para equipos ARM con kernels de terceros y para Ubuntu 25.10. Tres cosas que impedian que el motor de audio arrancara en esas plataformas: las herramientas jack_lsp y jack_connect, que Ubuntu movio a otro paquete y sin las cuales el equipo quedaba siempre en modo degradado aunque el motor estuviera sano; el scheduling de tiempo real, que algunos kernels deniegan incluso a root; y la espera de arranque, que ahora aguarda a que el motor RESPONDA en vez de dormir un plazo fijo que en un equipo lento se quedaba corto. Ademas el governor del CPU queda fijo en performance de forma persistente en TODAS las plataformas (antes solo en x86, y en ARM se perdia en cada reinicio)."
 }
