@@ -1,7 +1,7 @@
 {
-    "version":  "4.33",
+    "version":  "4.34",
     "date":  "2026-09-17",
-    "file":  "radio-mpx-4.33.zip.enc",
-    "sha256":  "73090f9ce1df73499e2f10a74ecd51920b50420fce4125903bbd5f21ca80f9b1",
-    "changelog":  "Rendimiento: se saca el I/O bloqueante del pool de 8 hilos (ffprobe, HTTP a Icecast, param_get TCP, pgrep); los timers de la UI se frenan con la pestana oculta y los VU solo se dibujan en su solapa; el snapshot de niveles para el display solo corre si hay display. Mejoras de latencia y de CPU del backend."
+    "file":  "radio-mpx-4.34.zip.enc",
+    "sha256":  "359404c6fdded958478f6d548a6b2549ee8df1a37dcea4e9ce94757d6e31ae53",
+    "changelog":  "Arreglo de 4 bugs: el ajuste de ganancia/fase del subportador estereo tiraba el lector de control del encoder; el formato de audio reportado quedaba congelado al cambiar de placa; el estado del relay externo podia mostrar el del relay anterior; y los VU ahora avisan (se atenuan y el punto pasa a ambar) cuando se corta el flujo de niveles, en vez de quedar congelados aparentando audio real."
 }
