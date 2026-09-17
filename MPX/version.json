@@ -1,7 +1,7 @@
 {
-    "version":  "4.30",
-    "date":  "2026-09-02",
-    "file":  "radio-mpx-4.30.zip.enc",
-    "sha256":  "353e9fe85a52cf3b7b5bd46aa73b3a5058c1495cb6a9f8fedd45f20fe9023d5d",
-    "changelog":  "Soporte para equipos ARM con kernels de terceros y para Ubuntu 25.10. Tres cosas que impedian que el motor de audio arrancara en esas plataformas: las herramientas jack_lsp y jack_connect, que Ubuntu movio a otro paquete y sin las cuales el equipo quedaba siempre en modo degradado aunque el motor estuviera sano; el scheduling de tiempo real, que algunos kernels deniegan incluso a root; y la espera de arranque, que ahora aguarda a que el motor RESPONDA en vez de dormir un plazo fijo que en un equipo lento se quedaba corto. Ademas el governor del CPU queda fijo en performance de forma persistente en TODAS las plataformas (antes solo en x86, y en ARM se perdia en cada reinicio)."
+    "version":  "4.33",
+    "date":  "2026-09-17",
+    "file":  "radio-mpx-4.33.zip.enc",
+    "sha256":  "73090f9ce1df73499e2f10a74ecd51920b50420fce4125903bbd5f21ca80f9b1",
+    "changelog":  "Rendimiento: se saca el I/O bloqueante del pool de 8 hilos (ffprobe, HTTP a Icecast, param_get TCP, pgrep); los timers de la UI se frenan con la pestana oculta y los VU solo se dibujan en su solapa; el snapshot de niveles para el display solo corre si hay display. Mejoras de latencia y de CPU del backend."
 }
